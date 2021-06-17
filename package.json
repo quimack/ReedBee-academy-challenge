@@ -1,0 +1,25 @@
+{
+  "name": "reedbee-academychallenge",
+  "version": "1.0.0",
+  "description": "Repositorio creado para el challenge de RedBee Academy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quimack/reedbee-academyChallenge.git"
+  },
+  "author": "Macarena Quiven Giacopazzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quimack/reedbee-academyChallenge/issues"
+  },
+  "homepage": "https://github.com/quimack/reedbee-academyChallenge#readme",
+  "devDependencies": {
+    "mocha": "^9.0.0"
+  },
+  "dependencies": {
+    "chai": "^4.3.4"
+  }
+}
