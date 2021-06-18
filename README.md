@@ -43,7 +43,7 @@ La razón por la cual creé un nuevo repositorio en lugar de utilizar el reposit
 en el cual les transmití que por ahora no manejo JAVA, y me encuentro más cómoda en el uso de JavaScript. Aún así estoy muy interesada en **aprender a utilizar JAVA**. 
 Me siento agradecida de que me hayan dado lugar a crear este nuevo repositorio y así poder trabajar brevemente de la manera en la que me siento más cómoda actualmente.
 
-Fue un **desafío** para mí la creación de los test, ya que nunca había trabajado con éstos, y hasta el momento no había hecho uso de librerías externas, dependencias y gestores de paquetes. 
+Fue un **desafío** para mí la creación de los test, ya que nunca había trabajado con éstos, y hasta el momento no había hecho uso de librerías externas, dependencias y gestores de paquetes. Para ello me fue de gran ayuda Seba, quien me compartió sus conocimientos y pacientemente me guió en la instalación y uso de las librerías. 
 Un proceso muy interesante, y un nuevo pequeño crecimiento del que me siento orgullosa.
 
 **Muchas gracias por esta oportunidad!**
