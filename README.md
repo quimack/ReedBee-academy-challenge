@@ -32,11 +32,11 @@ NPM (Node Package Manager).
 
 Para poder ejecutar los test desde la terminal, ejecute los comandos:
 
-1. npm install
-2. npm init
-3. npm install mocha
-4. npm install chai
-5. npm test
+1. *npm install*
+2. *npm init*
+3. *npm install mocha*
+4. *npm install chai*
+5. *npm test*
 
 ## 👩‍💻 Notas:  
 La razón por la cual creé un nuevo repositorio en lugar de utilizar el repositorio bifurcado de Red Bee, fue a partir de un **diálogo con el equipo de People**, 
