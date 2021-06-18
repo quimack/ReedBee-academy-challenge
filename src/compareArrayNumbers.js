@@ -1,9 +1,8 @@
 const maxArray = (a, b) =>{
     let maxNumber = "";
     let newArray = [];
-
-    for(let i = 0; i < a.length || i < b.length; i++){
-        if(a[i] && a[i] >= b[i]){
+    for(let i = 0; i < a.length || i < b.length; i++){   //conditions for unequal arrays length
+        if(a[i] && a[i] >= b[i]){   
             maxNumber = a[i];
         }else if(b[i]){
             maxNumber = b[i];

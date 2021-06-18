@@ -56,85 +56,85 @@ it('Test array vacío', ()=>{
 })
 
 //TEST compareNumbers
-it('Test array vacío', ()=>{
+it('Test camino feliz', ()=>{
     const result = compareOperation.maxNumber(1,3,2);
     assert.equal(3, result);
 })
-it('Test array vacío', ()=>{
+it('Test camino feliz', ()=>{
     const result = compareOperation.maxNumber(1,3,2);
     assert.isNotNull(result, "El resultado no puede ser null");
 })
-it('Test array vacío', ()=>{
+it('Test camino feliz', ()=>{
     const result = compareOperation.maxNumber(3,1,2);
     assert.equal(3, result);
 })
-it('Test array vacío', ()=>{
+it('Test camino feliz', ()=>{
     const result = compareOperation.maxNumber(3,1,2);
     assert.isNotNull(result, "El resultado no puede ser null");
 })
-it('Test array vacío', ()=>{
+it('Test camino feliz', ()=>{
     const result = compareOperation.maxNumber(1,2,3);
     assert.equal(3, result);
 })
-it('Test array vacío', ()=>{
+it('Test camino feliz', ()=>{
     const result = compareOperation.maxNumber(1,2,3);
     assert.isNotNull(result, "El resultado no puede ser null");
 })
-it('Test array vacío', ()=>{
+it('Test parametros iguales', ()=>{
     const result = compareOperation.maxNumber(1,1,1);
     assert.equal(1, result);
 })
-it('Test array vacío', ()=>{
+it('Test parametros iguales', ()=>{
     const result = compareOperation.maxNumber(1,1,1);
     assert.isNotNull(result, "El resultado no puede ser null");
 })
-it('Test array vacío', ()=>{
+it('Test parametros nulos', ()=>{
     const result = compareOperation.maxNumber(null,2,null);
     assert.equal(2, result);
 })
-it('Test array vacío', ()=>{
+it('Test parametros nulos', ()=>{
     const result = compareOperation.maxNumber(null,2,null);
     assert.isNotNull(result, "El resultado no puede ser null");
 })
 
 // TEST compareArrayNumbers
-it('Test array vacío', ()=>{
+it('Test camino feliz', ()=>{
     const result = compareArrayOperation.maxArray([1,2,4],[5,5,5])
     assert.equal(5, result[0]);
 })
-it('Test array vacío', ()=>{
+it('Test camino feliz', ()=>{
     const result = compareArrayOperation.maxArray([1,2,4],[5,5,5])
     assert.equal(5, result[1]);
 })
-it('Test array vacío', ()=>{
+it('Test camino feliz', ()=>{
     const result = compareArrayOperation.maxArray([1,2,4],[5,5,5])
     assert.equal(5, result[2]);
 })
-it('Test array vacío', ()=>{
+it('Test camino feliz', ()=>{
     const result = compareArrayOperation.maxArray([5,1,5],[1,5,1])
     assert.equal(5, result[0]);
 })
-it('Test array vacío', ()=>{
+it('Test camino feliz', ()=>{
     const result = compareArrayOperation.maxArray([5,1,5],[1,5,1])
     assert.equal(5, result[1]);
 })
-it('Test array vacío', ()=>{
+it('Test camino feliz', ()=>{
     const result = compareArrayOperation.maxArray([5,1,5],[1,5,1])
     assert.equal(5, result[2]);
 })
-it('Test array vacío', ()=>{
+it('Test longitud de arrays diferente', ()=>{
     const result = compareArrayOperation.maxArray([5,1],[1,5,1])
     assert.equal(5, result[0]);
 })
-it('Test array vacío', ()=>{
+it('Test longitud de arrays diferente', ()=>{
     const result = compareArrayOperation.maxArray([5,1],[1,5,1])
     assert.equal(5, result[1]);
 })
-it('Test array vacío', ()=>{
+it('Test longitud de arrays diferente', ()=>{
     const result = compareArrayOperation.maxArray([5,1],[1,5,1])
     assert.equal(1, result[2]);
 })
-it('Test array vacío', ()=>{
+it('Test longitud de arrays diferente', ()=>{
     const result = compareArrayOperation.maxArray([5,1,1],[1,5])
     assert.equal(1, result[2]);
 })
